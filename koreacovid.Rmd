@@ -61,8 +61,9 @@ From this bar chart, we can see that more women are alive then men, with women b
 barchartGC(~result + Sex,data=kRdata, type="percent")
 
 ```
-
   
+We can see from the second bar chart that about 55-56% of women were alive vs about 40% of men, and from the dead catergory we can see more men died vs the amount of women. From both bar charts we can see that women did better in this study. 
+    
 
 
 
