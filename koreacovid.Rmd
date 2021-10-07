@@ -109,9 +109,11 @@ fisher.test(table1)
 ```
 
 
-
+The fisher test gves us the odds of dying for males is (44/1411) and the odds of the females dying is (25/1831). When you divide these two numbers you get 2.3. The odds ratio shows that males are 2.3 times more likely to die. We also see the confidence intervals are on the low end 1.4 to 3.9 being the high end. 
 
 
 
 ## Conclusions
 
+
+In conclusion we can see a big statistical differnce between men and women. Seemingly more men die of covid vs women. Our p-value is very small, so therefore we reject the null hypothesis. More importantly we can see more men die from this disease vs women.
