@@ -72,6 +72,20 @@ We can see from the second bar chart that about 55-56% of women were alive vs ab
   
 ## Numerical results
 
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+
+
+
+We now have the correct precentages, whereas we can see that the alive group was F 56% and M 44%. In the dead group F ranged in at 36% and M came in at 64%. So we can see here there is a backward relationship between males and females. Females were prodominalty alive wheras men were prodominatley dead. 1.4 F ended up dead, where 3% of males ended up dead. Males deaths were double the rate of women.
+
+
+
+
+
 
 ## Inferential results 
 
