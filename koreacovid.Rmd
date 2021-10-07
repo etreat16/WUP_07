@@ -90,6 +90,27 @@ We now have the correct precentages, whereas we can see that the alive group was
 ## Inferential results 
 
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+```
+
+
+  
+The chi sq test provides the exact numbers. It shows that 1831 were females and males were 1411 that fell in the alive category. 25 women died vs 44 males died. the odds of a female dying is (25/1831). The odds of a male dying is (44/1411). The odds ratio of a male dying to a female is (44/1411)/(25/1831). The odds ratio is 2.3.   
+
+
+
+
+
+
+```{r}
+fisher.test(table1)
+```
+
+
+
+
 
 
 ## Conclusions
